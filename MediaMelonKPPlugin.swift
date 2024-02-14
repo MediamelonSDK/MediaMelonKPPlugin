@@ -14,7 +14,7 @@ import os
   import CoreTelephony
 #endif
 import PlayKit
-import MediaMelonGenericFramework
+import MMGenericFramework
 
 @objc public class MediaMelonKPPluginConfig: NSObject {
     
