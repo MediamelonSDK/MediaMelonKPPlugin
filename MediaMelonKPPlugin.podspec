@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "MediaMelonKPPlugin"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "The MediaMelon Player SDK Provides SmartSight Analytics and QBR SmartStreaming."
   spec.description  = "The MediaMelon Player SDK adds SmartSight Analytics and QBR SmartStreaming capability to any media player and is available for all ABR media players."
   spec.homepage     = "https://github.com/MediamelonSDK/MediaMelonKPPlugin"
@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
   spec.source_files  = "MediaMelonKPPlugin.swift"
   
   spec.dependency 'PlayKit', '~> 3.27'
-  spec.dependency 'MMGenericFramework', '2.1.0'
+  spec.dependency 'MediaMelonGenericFramework', '1.0.1'
 end
